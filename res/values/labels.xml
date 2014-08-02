@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main">The Solar System</string>
+    <string name="sun">The Sun</string>
+    <string name="mercury">Mercury</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="saturn">Saturn</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="neptune">Neptune</string>
+    <string name="uranus">Uranus</string>
+    <string name="planets">The Planets</string>
+    
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.badadaha.solarsystem.MainActivity"
+    tools:ignore="MergeRootFrame"
+>
+	
+    <RelativeLayout
+	    android:id="@+id/system_container"
+		style="@style/rlMenu" >
+		
+	    <ImageView
+	        android:id="@+id/ivMainSystem"
+	        style="@style/ivMenu"
+	        android:contentDescription="@string/main"
+	        android:src="@drawable/system" />
+		
+	    <TextView
+	        android:id="@+id/tvMainSystem"
+	       	style="@style/tvMenu"
+	        android:layout_toRightOf="@id/ivMainSystem"
+	        android:text="@string/main" />
+		
+	</RelativeLayout>
+    
+	<RelativeLayout
+	    android:id="@+id/sun_container"
+	    style="@style/rlMenu" >
+	
+	    <ImageView
+	        android:id="@+id/ivMainSun"
+	        style="@style/ivMenu"
+	        android:contentDescription="@string/sun"
+	        android:src="@drawable/sun" />
+	
+	    <TextView
+	        android:id="@+id/tvMainSun"
+	        style="@style/tvMenu"
+	        android:layout_toRightOf="@id/ivMainSun"
+	        android:text="@string/sun" />
+
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/planets_container"
+	    style="@style/rlMenu" >
+	
+	    <ImageView
+	        android:id="@+id/ivMainPlanets"
+	        style="@style/ivMenu"
+	        android:contentDescription="@string/planets"
+	        android:src="@drawable/planets" />
+	
+	    <TextView
+	        android:id="@+id/tvMainPlanets"
+	        style="@style/tvMenu"
+	        android:layout_toRightOf="@id/ivMainPlanets"
+	        android:text="@string/planets" />
+
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+    
+	<LinearLayout
+	    android:id="@+id/planets_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <RelativeLayout
+		    android:id="@+id/mercury_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivMercuryMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/mercury"
+		        android:src="@drawable/mercury" />
+		
+		    <TextView
+		        android:id="@+id/tvMercuryMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivMercuryMenu"
+		        android:text="@string/mercury" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/venus_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivVenusMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/venus"
+		        android:src="@drawable/venus" />
+		
+		    <TextView
+		        android:id="@+id/tvVenusMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivVenusMenu"
+		        android:text="@string/venus" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/earth_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivEarthMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/earth"
+		        android:src="@drawable/earth" />
+		
+		    <TextView
+		        android:id="@+id/tvEarthMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivEarthMenu"
+		        android:text="@string/earth" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/mars_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivMarsMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/mars"
+		        android:src="@drawable/mars" />
+		
+		    <TextView
+		        android:id="@+id/tvMarsMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivMarsMenu"
+		        android:text="@string/mars" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/saturn_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivSaturnMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/saturn"
+		        android:src="@drawable/saturn" />
+		
+		    <TextView
+		        android:id="@+id/tvSaturnMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivSaturnMenu"
+		        android:text="@string/saturn" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/jupiter_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivJupiterMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/jupiter"
+		        android:src="@drawable/jupiter" />
+		
+		    <TextView
+		        android:id="@+id/tvJupiterMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivJupiterMenu"
+		        android:text="@string/jupiter" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/neptune_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivNeptuneMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/neptune"
+		        android:src="@drawable/neptune" />
+		
+		    <TextView
+		        android:id="@+id/tvNeptuneMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivNeptuneMenu"
+		        android:text="@string/neptune" />
+	
+		</RelativeLayout>
+		
+	    <RelativeLayout
+		    android:id="@+id/uranus_container"
+		    style="@style/rlMenu" >
+		
+		    <ImageView
+		        android:id="@+id/ivUranusMenu"
+		        style="@style/ivMenu"
+		        android:contentDescription="@string/uranus"
+		        android:src="@drawable/uranus" />
+		
+		    <TextView
+		        android:id="@+id/tvUranusMenu"
+		        style="@style/tvMenu"
+		        android:layout_toRightOf="@id/ivUranusMenu"
+		        android:text="@string/uranus" />
+	
+		</RelativeLayout>
+	    
+	</LinearLayout>
+	
+</ScrollView>
